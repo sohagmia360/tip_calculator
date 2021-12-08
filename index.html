@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip calculator</title>
+  <script src="https://kit.fontawesome.com/594c725306.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+
+  <div class="tip_calculator">
+    <div class="container">
+      <div class="calculation_selection">
+        <h3 class="small_hading">Bill</h3>
+        <form class="main_bill" action="#">
+          <input  type="text" >
+          <img class="doller_sicne" src="./images/icon-dollar.svg" alt="">
+        </form>
+        <h3 class="small_hading">Select Tip %</h3>
+        <div class="select_tip_persent">
+          <span class="persent">5%</span>
+          <span class="persent">10%</span>
+          <span class="persent">15%</span>
+          <span class="persent">25%</span>
+          <span class="persent">50%</span>
+          <span class=" custom_persent"><input  type="number" placeholder="CUSTOM"></span>
+        </div>
+        <h3 class="small_hading">Numbers of People</h3>
+        <form class="numbers_of_people" action="#">
+          <input  type="text" value="0" >
+          <img class="userIons" src="/images/icon-person.svg" alt="">
+        </form>
+       <!-- <a class="btntry" href="#">Try</a>  -->
+      </div>
+      <div class="Final_Summery">
+          <div class="summery">
+              <div class="tip_amaunt_person">
+                  <div class="people_single">
+                    <h3 class="hading">Tip Amount</h3>
+                    <small class="subhading">/ person</small>
+                  </div>
+                   <div class="amaunt">
+                     <h2 class="taka TipTaka">$0.00</h2>
+                   </div>
+              </div>
+              <div class="tip_total_amaunt_person">
+                  <div class="people_single">
+                    <h3 class="hading">Total</h3>
+                    <small class="subhading">/ person</small>
+                  </div>
+                   <div class="amaunt">
+                     <h2 class="taka totalTaka">$0.00</h2>
+                   </div>
+              </div>
+            
+          </div>
+          <div class="resetBtn">
+            <button>RESET</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <h2>its site Not includ Error handalig</h2>
+       <h3>devoloper is Learning error handaing</h3> 
+       <h4>And disible numbers of People oftion</h4>
+       <small>😁</small>
+       <a class="modalClose" href="#">close</a>
+    </div>
+  </div>
+
+<script src="./app.js"></script>
+</body>
+</html>
