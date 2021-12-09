@@ -1,3 +1,3 @@
 ﻿# tip_calculator
 
-## Live link : https://quirky-allen-68bab1.netlify.app/#
+## Live link : https://compassionate-murdock-fe1606.netlify.app/#
