@@ -322,6 +322,10 @@ a.modalClose:hover{
     .calculation_selection{
         width: 100%;
     }
+     .modal{
+        width: 300px !important;
+        height: 400px;
+    }
 }
 
 @media (max-width : 375px){
